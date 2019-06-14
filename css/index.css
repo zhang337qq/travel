@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*头部开始*/
+header{
+    height: 5.01rem;
+    background-image: url("../images/banner.jpg");
+}
+.head-top{
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-top input{
+    width: 8rem;
+    height: 0.8rem;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    background: url("../images/search.png") no-repeat 100px center;
+    padding-left: 150px;
+    box-sizing: border-box;
+    background-color:rgba(44,44,44,0.1);
+}
+.head-top img{
+    width: 0.26rem;
+    height: 0.46rem;
+}
+/*内容开始*/
+section{
+    flex: 1;
+    overflow: auto;
+}
+.box{
+    background-color: #f4f4f4;
+}
+.box-top{
+    height:4.94rem;
+    background-color: #fff;
+}
+.box-top ul{
+    height: 2.2rem;
+    display: flex;
+    flex-direction: revert;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.box-top ul li{
+    text-align: center;
+}
+.box-top ul li img{
+    width: 1.147rem ;
+    height: 1.17rem;
+}
+.box-cen{
+    margin: 0.4rem 0;
+    height: 2.26rem;
+}
+.box-cen ul{
+    display: flex;
+    justify-content: space-between;
+}
+.box-cen ul:nth-child(1){
+    border-bottom: 2px solid #f5f5f5;
+}
+.box-cen ul li{
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 1.12rem;
+}
+.box-cen ul li span{
+    padding-left: 10px;
+}
+.box-cen ul li img{
+    width: 34px;
+    height: 34px;
+}
+.box-cen ul li+li{
+    border-left: 2px solid #f5f5f5;
+}
+.box-btn{
+    height: 1200px;
+    background-color: #fff;
+
+}
+.box-btn h3{
+    text-align: center;
+    font-size: 0.426rem;
+    height: 1.33rem;
+    line-height: 1.33rem;
+}
+.box-btn ul{
+    height: 357px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.box-btn ul li{
+    width: 4.4rem;
+}
+.box-btn ul li p{
+    font-size: 26px;
+}
+.box-btn ul li img{
+    width: 330px;
+    height: 220px;
+}
+.red{
+    color: #ff7467;
+    font-size: 26px;
+}
+.box-end {
+    height: 1.86rem;
+}
+.box-end p{
+    padding-top: 20px;
+    text-align: center;
+    height: 0.93rem;
+    line-height: 0.93rem;
+}
+.box-end ul{
+    display: flex;
+    justify-content: center;
+}
+.box-end ul li{
+    width:  1.33rem;;
+    text-align: center;
+}
+/*尾部开始*/
+footer{
+    height: 1.3rem;
+}
+footer ul {
+    height: 1.3rem;
+    display: flex;
+    flex-direction: revert;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li{
+    text-align: center;
+}
